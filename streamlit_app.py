@@ -9,7 +9,7 @@ import joblib
 #     model = pickle.load(file)
 
 
-model = joblib.load('K-Nearest Neighborsmodel.pkl')  # Ensure this is the model, not data
+model = joblib.load('K-Nearest Neighboursmodel.pkl')  # Ensure this is the model, not data
 
 # Load and display accuracy
 with open('accuracy.txt', 'r') as file:
